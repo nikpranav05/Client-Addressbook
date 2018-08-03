@@ -1,0 +1,203 @@
+body{
+        background-color: #2F0333 !important;
+}
+.main-container{ 
+    width: 400px;
+    margin: 0 auto 40px;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 80px;
+}
+
+button#login-btn, button#add-btn{
+    background-color: #36033B !important;
+    color: white;
+    border: none;
+    border-bottom: solid 1px #222;
+    text-transform: uppercase;
+    font-size: 22px !important;
+    padding: 10px;
+    width: 100%;
+}
+
+button#login-btn:hover, button#add-btn:hover{
+    background: #613166 !important;
+    border-bottom: solid 1px #111;
+    cursor: pointer;
+}
+
+button:active{
+    position: relative;
+    top: 1px;
+}
+
+#data{
+    color: white;
+}
+
+h1{
+    background-color: #101010 !important;
+    color: white !important;
+    margin: 30px auto !important;
+    width: 400px;
+    padding: 30px;
+}
+.form-group{
+    margin-top: 30px;
+    margin-bottom: 25px !important;
+}
+.nav>li{
+    width: 50%;
+}
+.nav-tabs{
+    background-color: #BBB;
+}
+a{
+    color: #8D868F !important;
+}
+.nav-tabs>li>a{
+    margin-right: 0 !important;
+}
+.nav>li>a:hover{
+    background-color: #615463 !important;
+}
+.nav-tabs>li.active>a{
+    background-color: white;
+    color: #101010 !important;
+}
+.navbar-nav>li>a {
+    width: 110px !important;
+}
+.navbar-nav #nav-logout{
+    margin-right: 30px !important;
+    width: 80px !important;
+}
+.nav>li>a:active{
+    position: relative;
+    top: 1px;
+}
+.text-danger{
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left !important;
+}
+
+table{
+    color: #D590F0 !important; 
+}
+
+.form-group>label{
+    color: #D590F0 !important;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th {
+    border: 0.3px solid #8D2DB3 !important;
+}
+
+table.table-striped>tbody>tr:nth-of-type(odd)>td, table.table-striped>tbody>tr:nth-of-type(odd)>th{
+    background-color: #5E1069 !important;
+}
+.text-center{
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+}
+
+table.table>tbody>tr>td>a, .btn-primary{
+    color: #D590F0 !important;
+    background-color: #5E1069 !important;
+}
+
+.text-center>.btn-success:hover, .btn-primary:hover, .col-md-12>.btn-warning:hover, .pull-right>.btn-success:hover, .col-md-12>.btn-success:hover, .container>div>a:hover{
+    background-color: #8c179b!important;
+    color: beige !important;
+}
+
+.text-center>.btn-success:active, .btn-primary:active, .col-md-12>.btn-warning:active, .pull-right>.btn-success:active, .col-md-12>.btn-success:active, .container>div>a:active{
+    border-color: #8c179b !important;
+}
+
+
+.text-center>.btn-success:focus, .btn-primary:focus, .col-md-12>.btn-warning:focus, .pull-right>.btn-success:focus, .col-md-12>.btn-success:focus, .container>div>a:focus{
+    border-color: #8c179b !important;
+}
+
+.text-center>.btn-success, .col-md-12>.btn-warning, .pull-right>.btn-success, .col-md-12>.btn-success, .container>div>a, .btn-primary{
+    background-color: #5E1069 !important;
+    color: #D590F0 !important; 
+    font-weight: 600;
+    border-color: transparent!important;
+}
+
+.btn, .btn-lg{
+    border-radius: 0px !important;
+}
+.pull-right>.btn-success, .col-md-12>.btn-success, .container>div>a{
+    border: none;
+}
+#close-alert{
+    color: red !important;
+    background-color: transparent !important;
+}
+#close-alert:hover{
+    text-decoration: none;
+    background-color: transparent !important;
+    color: crimson;
+}
+.text-center>a{
+    color: #1B021F !important;
+}
+.container>div{
+/*    width: 100%;*/
+    text-align: center;
+/*    padding: 20px;*/
+    margin: 10px auto !important;
+}
+.navbar-right{
+    margin-right: 5px !important;
+}
+
+#modal-yes{
+    color: black !important;
+}
+
+.modal-footer>a{
+    color: black !important;
+}
+
+.form-horizontal .control-label{
+    font-style: normal !important;
+    font-weight: 200;
+    text-align: left !important;
+}
+
+.form-horizontal{
+    margin: 0 !important;
+    padding-bottom: 0px !important;
+}
+
+.control-group>.controls>button{
+    width: 120px !important;
+    height: 40px !important;
+    margin: 5px !important;
+    margin-top: 10px !important;
+    font-size: 18px !important;
+}
+
+.modal-footer{
+    padding: 10px !important;
+}
+
+.modal-footer>button{
+    width: 100px !important;
+    height: 40px !important;
+    margin-right: 15px !important;
+}
+
+a#yes-wala-button{
+    width: 100px !important;
+    height: 40px !important;
+    margin-right: 15px !important;
+    line-height: 25px;
+}
